@@ -39,4 +39,4 @@ sites/simpletest
 # */private
 
 # Ignore multi-site test environment.
-# simpletest
+simpletest

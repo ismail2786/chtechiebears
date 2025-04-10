@@ -1,25 +1,16 @@
-<header role="banner">
-  {{ page.header }}
-
-  {% if page.nav_branding or page.nav_main or page.nav_additional %}
-  <nav class="{{ nav_classes }}">
-    <div class="{{ b5_top_container }} d-flex">
+<header role="banner" class="header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
       {{ page.nav_branding }}
-
-      {% if page.nav_main or page.nav_additional %}
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+      <div class="main-navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           {{ page.nav_main }}
-          {{ page.nav_additional }}
         </div>
-      {% endif %}
+      </div>
+        {{ page.nav_additional }}
     </div>
   </nav>
-  {% endif %}
-
 </header>

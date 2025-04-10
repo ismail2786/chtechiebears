@@ -7,7 +7,9 @@ base theme: bootstrap5
 libraries: 
   - stayrelive/global-styling
 regions:
-  header: Header
+  nav_branding: Nav branding
+  nav_main: Main navigation
+  nav_additional: For additional navigation
   message: Message
   content: Content
   footer: Footer

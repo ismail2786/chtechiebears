@@ -40,3 +40,18 @@ sites/simpletest
 
 # Ignore multi-site test environment.
 # simpletest
+/sites/default/files/*
+/sites/default/files/.css*
+/sites/default/files/.js*
+/sites/default/settings.php
+
+/vendor
+/modules/contrib
+
+.json*
+.php*
+.js*
+.css*
+.png*
+.jpg*
+.gif*

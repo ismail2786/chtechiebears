@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to ChTechieBears</title>
+    <title>Welcome to TechieBears</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,7 +33,7 @@
 </head>
 <body>
     <div class="welcome-container">
-        <h1>Welcome to ChTechieBears! 🐾</h1>
+        <h1>Welcome to TechieBears! 🐾</h1>
         <p>We're excited to have you here. Stay tuned for awesome content!</p>
     </div>
 </body>

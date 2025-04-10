@@ -861,12 +861,12 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  // 'database' => 'u216741967_corporatehousi',
-  // 'username' => 'u216741967_corporatehousi',
-  // 'password' => 'CorporateH1234',
-  'database' => 'corporatehousing',
-  'username' => 'root',
-  'password' => '',
+  'database' => 'u216741967_corporatehousi',
+  'username' => 'u216741967_corporatehousi',
+  'password' => 'CorporateH1234',
+  // 'database' => 'corporatehousing',
+  // 'username' => 'root',
+  // 'password' => '',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

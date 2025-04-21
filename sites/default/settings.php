@@ -265,7 +265,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'RMXYa9rL87l5LJv30gC7H1RpS3xU3HaXIBHCK-Yh8mMloxxSQe9qBuRIOor67bXaDkExiOHLgA';
+$settings['hash_salt'] = 'u0EdyeXkMoaYHvwtbYRWBOyuKdSk-I504RLOatwCXbdilxH1SoKtW-IRkY_IQVyTHDkXwDWGKw';
 
 /**
  * Deployment identifier.
@@ -861,14 +861,14 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'u216741967_corporatehousi',
-  'username' => 'u216741967_corporatehousi',
-  'password' => 'CorporateH1234',
-  // 'database' => 'corporatehousing',
-  // 'username' => 'root',
-  // 'password' => '',
+  // 'database' => 'u216741967_corporatehousi',
+  // 'username' => 'u216741967_corporatehousi',
+  // 'password' => 'CorporateH1234',
+  'database' => 'corporate',
+  'username' => 'root',
+  'password' => '',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => '127.0.0.1',
   'port' => '3306',
   'isolation_level' => 'READ COMMITTED',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',

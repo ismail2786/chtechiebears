@@ -9,3 +9,68 @@ $primary-font: 'Poppins', sans-serif;
 $primary: #0B8D9F;
 $secondary: #192452;
 $light: rgba(214, 238, 242, 1);
+
+// POPULAR BUSINESS DESTINATION
+// Variables
+$background-color: #f8f9fa;
+$highlight-color: #CFAF6E;
+$text-color: #000;
+$font-family: 'Poppins', sans-serif;
+
+
+// Why Choose Us Section
+// Variables
+$bg-color: #EBECE7;
+$highlight-color: #B18B5D;
+$heading-color: #1B1C17;
+$text-color: #152228;
+$feature-text-color: #233943;
+$button-bg: #0B8C9F;
+$button-text: #F5F5F5;
+$border-color: #b7c4ce;
+$shadow-color: #757575;
+
+$font-primary: "Poppins", sans-serif;
+$font-secondary: sans-serif;
+
+$breakpoints: (
+  xl: 1280px,
+  lg: 1024px,
+  md: 890px,
+  sm: 710px,
+  xs: 500px,
+  xxs: 320px
+);
+
+// Extends
+%flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%full-width {
+  width: 100%;
+}
+
+%absolute-position {
+  position: absolute;
+}
+
+%image-cover {
+  object-fit: cover;
+  width: 100%;
+}
+
+//success stories
+// Variables
+$bg-color: #F8F8FC;
+$gold-color: #CFAF6E;
+$dark-color: #333A4D;
+$text-color: #00000099;
+$white: #FFFFFF;
+$shadow-color: #DBDBF0;

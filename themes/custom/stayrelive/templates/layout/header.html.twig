@@ -1,16 +1,26 @@
-<header role="banner" class="header">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      {{ page.nav_branding }}
-      <div class="main-navigation">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<div class="banner">
+  <header role="banner" class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent w-100">
+      <div class="container d-flex align-items-center justify-content-between">
+        
+        {# Logo Section - Replace nav_branding with actual logo code #}
+        {{ page.nav_branding }}
+        
+        {# Navbar Toggle Button #}
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        {# Navbar Links #}
+        <div class="collapse navbar-collapse justify-content-center ms-5" id="navbarSupportedContent">
           {{ page.nav_main }}
         </div>
-      </div>
+
+        {# Buttons - Replace nav_additional with actual buttons code #}
         {{ page.nav_additional }}
-    </div>
-  </nav>
-</header>
+
+      </div>
+    </nav>
+  </header>
+</div>

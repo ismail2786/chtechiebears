@@ -85,7 +85,7 @@
   max-width: 1280px !important;
 }
 @media (max-width: 991px) {
-  .banner .header .navbar-brand img {
+  .banner .header .navbar-brand a img {
     height: 45px;
     margin: 0 1rem 0 0;
     width: auto;
@@ -98,6 +98,7 @@
     right: 8px;
     text-align: center;
     background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
   }
   .banner .header .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.9);
@@ -108,6 +109,53 @@
   .banner .header .region-nav-additional {
     display: none;
   }
+}
+.banner .header .navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0;
+  box-shadow: none;
+}
+.banner .header .navbar-toggler .custom-toggler-icon {
+  display: inline-block;
+  width: 30px;
+  height: 18px;
+  position: relative;
+}
+.banner .header .navbar-toggler .custom-toggler-icon .bar {
+  display: block;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  transition: 0.3s ease;
+}
+.banner .header .navbar-toggler .custom-toggler-icon .top-bar {
+  top: 0;
+}
+.banner .header .navbar-toggler .custom-toggler-icon .middle-bar {
+  top: 8px;
+}
+.banner .header .navbar-toggler .custom-toggler-icon .bottom-bar {
+  bottom: 0;
+}
+.banner .header .navbar-toggler.collapsed .top-bar {
+  transform: rotate(0deg) translateY(0);
+}
+.banner .header .navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.banner .header .navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0deg) translateY(0);
+}
+.banner .header .navbar-toggler:not(.collapsed) .top-bar {
+  transform: rotate(45deg) translateY(10px);
+}
+.banner .header .navbar-toggler:not(.collapsed) .middle-bar {
+  opacity: 0;
+}
+.banner .header .navbar-toggler:not(.collapsed) .bottom-bar {
+  transform: rotate(-45deg) translateY(-11px);
 }
 
 body {
@@ -2163,10 +2211,6 @@ body {
   .footer .last-footer {
     font-size: 10px;
   }
-}
-
-.views-element-container {
-  display: none;
 }
 
 .footer {
